@@ -1,0 +1,129 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(48, 48, 48);
+    margin: 0;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+   
+    /* min-height: 100vh; */
+}
+.menu{
+    width: 20rem;
+}
+.chat{
+    width: 79rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #D4DCFF;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.navigation img{
+    border-radius: 100%;
+    width: 2rem;
+}
+.nav_texto p{
+    margin: 0;
+}
+.nav_texto_subTitulo{
+    font-size: 60%;
+    color: rgb(172, 172, 172);
+}
+.color_icon{
+    color: rgb(172, 172, 172);
+}
+.nav_texto{
+    padding-left: 4%;
+}
+.nav_1{
+    display: flex;
+    width: 40%;
+}
+.nav_2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+    
+}
+/* contenedor buttom */
+.contenedor_Button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #D4DCFF;
+    padding: 8%;
+}
+.style_button{
+    width: 76%;
+    height: 50px;
+    border-radius: 0%;
+    background-color:  #A491D2;
+    border: 1px;
+    color: white;
+    font-size: 16px;
+}
+.style_button:hover{
+    background-color: #CDC3E6;
+}
+.style_button:focus{
+ background-color: darkgray;
+}
+
+/* seccion de usuarios */
+.usuarios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #D4DCFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.usuarios img{
+    border-radius: 100%;
+    width: 3rem;
+}
+.usuarios_nombre p{
+    margin: 0;
+}
+.usuarios_nombre{
+
+    padding-left: 4%;
+}
+.subTitulo{
+    font-size:75%;
+}
+
+
+/* chat */
+.chat p{
+    font-family: 'Roboto', sans-serif;
+}
+.chat{
+    background-color:  #E8EBE4;
+}
+.titulo_chat{
+    margin-bottom: 0;
+    font-size: 45px;
+    font-weight: 400;
+}
+.subtitulo_chat{
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 400;
+
+}
